@@ -1,2 +1,2 @@
-# LearingJS
-Learn JS
+# javascript
+learn javascript
