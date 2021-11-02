@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "js/script.js",
   "scripts": {
-    "dev": "node js/script.js"
+    "dev": "node js/work_1.js"
   },
   "author": "",
   "license": "ISC",
