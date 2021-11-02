@@ -20,7 +20,14 @@
 // }
 
 
-// TASK 2
+// TASK 3
 
-let arr = [[2, -3, 5, 11], [1, -30, -11, 100], [-1, -3, -4]];
-
+// let arr = [[2, -3, 5, 11], [1, -30, -11, 100], [-1, -3, -4]];
+//
+// let arrObjects = arr[0].concat(arr[1], arr[2])
+//
+// for (let i = 0; i < arrObjects.length; i++) {
+//     if(arrObjects[i] > 0) {
+//         console.log(arrObjects[i])
+//     }
+// }
