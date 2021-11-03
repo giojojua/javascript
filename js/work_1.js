@@ -55,5 +55,5 @@
 //     item.map(number=> {
 //         number > 0 ? array.push(number) : '';
 //     })
-})
-console.log(array);
+// })
+// console.log(array);
