@@ -35,13 +35,25 @@
 
 // TASK 3 Second Variant
 
-let arr = [[2, -3, 5, 11], [1, -30, -11, 100], [-1, -3, -4]];
-let result = []
-arr.forEach(record => {
-    record.forEach(innerRecord => {
-        if (innerRecord > 0) {
-            result.push(innerRecord);
-        }
-    })
-});
-console.log(result.toString())
+// let arr = [[2, -3, 5, 11], [1, -30, -11, 100], [-1, -3, -4]];
+// let result = []
+// arr.forEach(record => {
+//     record.forEach(innerRecord => {
+//         if (innerRecord > 0) {
+//             result.push(innerRecord);
+//         }
+//     })
+// });
+// console.log(result.toString())
+
+
+// TASK 3 Third Variant
+
+// let arr = [[2, -3, 5, 11], [1, -30, -11, 100], [-1, -3, -4]];
+// let array = [];
+// arr.map(item => {
+//     item.map(number=> {
+//         number > 0 ? array.push(number) : '';
+//     })
+})
+console.log(array);
