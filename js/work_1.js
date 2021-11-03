@@ -31,3 +31,17 @@
 //         console.log(arrObjects[i])
 //     }
 // }
+
+
+// TASK 3 Second Variant
+
+let arr = [[2, -3, 5, 11], [1, -30, -11, 100], [-1, -3, -4]];
+let result = []
+arr.forEach(record => {
+    record.forEach(innerRecord => {
+        if (innerRecord > 0) {
+            result.push(innerRecord);
+        }
+    })
+});
+console.log(result.toString())

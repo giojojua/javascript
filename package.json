@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "js/script.js",
   "scripts": {
-    "dev": "node js/work_1.js"
+    "start": "node js/work_1.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "description": ""
 }
