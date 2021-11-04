@@ -36,15 +36,20 @@
 // TASK 3 Second Variant
 
 // let arr = [[2, -3, 5, 11], [1, -30, -11, 100], [-1, -3, -4]];
-// let result = []
+// let array = []
 // arr.forEach(record => {
 //     record.forEach(innerRecord => {
 //         if (innerRecord > 0) {
-//             result.push(innerRecord);
+//             array.push(innerRecord);
 //         }
 //     })
 // });
-// console.log(result.toString())
+//
+// for (let i = 0; i < array.length; i++) {
+//     if(array[i] > 0) {
+//         console.log(array[i])
+//     }
+// }
 
 
 // TASK 3 Third Variant
@@ -56,4 +61,9 @@
 //         number > 0 ? array.push(number) : '';
 //     })
 // })
-// console.log(array);
+//
+// for (let i = 0; i < array.length; i++) {
+//     if(array[i] > 0) {
+//         console.log(array[i])
+//     }
+// }
