@@ -1,15 +1,15 @@
 // TASK 1
 
-// let words = ['Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing', 'elit.', 'Nullam', 'lectus', 'quam'].reduce((previousValue, currentValue, currentIndex) => {
-//     if (!(currentIndex % 2 === 1)) {
-//         previousValue.push(currentValue)
-//     } else {
-//         previousValue.push(currentValue.toUpperCase())
-//     }
-//     return previousValue
-// }, []);
-//
-// console.log(words.join(' ').toString())
+let words = ['Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing', 'elit.', 'Nullam', 'lectus', 'quam'].reduce((previousValue, currentValue, currentIndex) => {
+    if (!(currentIndex % 2 === 1)) {
+        previousValue.push(currentValue)
+    } else {
+        previousValue.push(currentValue.toUpperCase())
+    }
+    return previousValue
+}, []);
+
+console.log(words.join(' ').toString())
 
 // TASK 2
 
