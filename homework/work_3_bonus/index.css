@@ -1,0 +1,87 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+.wholeInfo{
+  font-family: 'Raleway', sans-serif;
+  margin: 100px 0;
+  position: relative;
+}
+
+button{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+.sliderContent{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.slide {
+  margin: 0 11px;
+}
+
+.slide h2{
+  color: #5863F8;
+  font-size: 14px;
+  text-align: center;
+  margin-left: 11px;
+}
+
+ h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 42px;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+}
+
+button {
+  margin: 45px 0;
+}
+
+.slide img {
+  height: 253px;
+  width: auto;
+}
+
+button svg {
+  width: 69px;
+}
+
+.head span {
+  color: #5863F8;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.headTitle {
+  margin-left: 260px;
+}
+
+.staticSpan {
+  top: 0;
+  background-color: #65e5f6;
+  padding: 2px;
+  position: fixed;
+  width: 100%;
+}
