@@ -19,6 +19,7 @@ button{
   cursor:pointer;
   overflow: hidden;
   outline:none;
+  margin: 65px 0;
 }
 .sliderContent{
   display: flex;
@@ -28,7 +29,12 @@ button{
 }
 
 .slide {
+  display: none;
   margin: 0 11px;
+}
+
+.showSlide {
+  display: block;
 }
 
 .slide h2{
@@ -55,13 +61,10 @@ p {
   color: gray;
 }
 
-button {
-  margin: 45px 0;
-}
-
 .slide img {
   height: 253px;
-  width: auto;
+  max-width: 420px;
+  width: 100%;
 }
 
 button svg {
