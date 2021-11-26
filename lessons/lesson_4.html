@@ -84,23 +84,23 @@
     // renderPage()
 
 
-    async function renderPage() {
-        try {
-            let response = await fetch('https://jsonplaceholder.typicode.com/posts', {
-                method: 'GET'
-            })
-            let data = await response.json();
-            data.map((obj) => {
-                console.log(obj.id)
-                console.log(obj.title)
-                console.log(obj.body)
-            })
-        } catch (e) {
-            console.log(e)
-        }
-    }
-
-    renderPage()
+    // async function renderPage() {
+    //     try {
+    //         let response = await fetch('https://jsonplaceholder.typicode.com/posts', {
+    //             method: 'GET'
+    //         })
+    //         let data = await response.json();
+    //         data.map((obj) => {
+    //             console.log(obj.id)
+    //             console.log(obj.title)
+    //             console.log(obj.body)
+    //         })
+    //     } catch (e) {
+    //         console.log(e)
+    //     }
+    // }
+    //
+    // renderPage()
 
     // console.log(obj)
 </script>
