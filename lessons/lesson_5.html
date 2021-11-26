@@ -8,25 +8,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AJAX</title>
 </head>
-<body>
-<div id="container">
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
 
-</div>
+    img {
+        max-height: 100vh;
+        max-width: 100%;
+        display: block;
+    }
+
+    .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<body>
+<div id="container" class="container"></div>
 <script>
     async function getImages() {
-        const response = await fetch('https://reqres.in/api/unknown')
-        if (response.status == 200) {
-            let image = document.createElement("img")
-            image.setAttribute('src', '/lesson_5/ok.jpg')
-            document.getElementById('container').appendChild(image)
-            console.log('ok')
-        } else {
-            let image = document.createElement("img")
-            image.setAttribute('src', '/lesson_5/witchking.jpg')
-            document.getElementById('container').appendChild(image)
-            console.log('error')
-        }
-
+        return await fetch('https://reqres.in/api/unknown')
+            .then(response => {
+                if (response.status === 200) {
+                    let image = document.createElement("img")
+                    image.setAttribute('src', '/lesson_5/ok.jpg')
+                    document.getElementById('container').appendChild(image)
+                }
+            })
+            .catch(function () {
+                let image = document.createElement("img")
+                image.setAttribute('src', '/lesson_5/witchking.jpg')
+                document.getElementById('container').appendChild(image)
+                console.log('error')
+            })
     }
 
     getImages()
