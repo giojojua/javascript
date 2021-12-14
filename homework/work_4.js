@@ -1,13 +1,13 @@
-let words = ['tenet', 'inception', 'prestige', 'bob']
-
-
-function checkPalindrome(array) {
-    return array === array.split('').reverse().join('');
-}
-
-const result = words.filter(word => checkPalindrome(word));
-
-console.log(result)
+// let words = ['tenet', 'inception', 'prestige', 'bob']
+//
+//
+// function checkPalindrome(array) {
+//     return array === array.split('').reverse().join('');
+// }
+//
+// const result = words.filter(word => checkPalindrome(word));
+//
+// console.log(result)
 
 
 // Bonus Work
