@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "homework/script.js",
   "scripts": {
-    "start": "node homework/work_2.js"
+    "start": "node homework/work_4.js"
   },
   "author": "",
   "license": "MIT",
